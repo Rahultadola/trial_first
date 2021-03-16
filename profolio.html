@@ -1,0 +1,116 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!doctype HTML>
+<html>
+  <head>
+    <title>Portfolio Page</title>
+    
+  </head>
+  <style>
+    #navbar{		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 6vw;
+		min-height: 80px; 
+		width: 100%;
+		margin: auto;
+    position: fixed;
+    top : 0;
+     z-index: 1;
+      background: #ccc;
+	}
+
+	#navbar ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		display: inline;
+	}
+
+	#navbar ul li{
+		float: left;
+		padding-left: 5vw;
+	}
+
+	#navbar ul li a{
+		font-size: 20px;
+		font-weight: 700;
+		text-decoration: none;
+		color: #555;
+	}
+    #welcome-section{
+		position: relative;
+      top: 10vh;
+		height: 100vh !important;
+		width: 100%;
+    
+		background: #ddd no-repeat fixed center;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+	}
+    #welcome-heading{
+      align-self: center;
+    }
+    #title-description{
+      align-self: center;
+    }
+    section{
+      margin: 10px 0px 0px 10px;
+    }
+    #projects{
+      display: flex;
+      flex-direction: column;
+      height: 50vh;
+    }
+    
+    
+    @media only screen and (max-width: 480px) {
+      
+    }
+  
+  </style>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#welcome-section">Projects</a></li>
+        <li><a href="#welcome-section">About Us</a></li>
+      </ul>
+    </nav>
+    
+    <section id="welcome-section">
+      <h1 id="welcome-heading">Tufoin and Rahul</h1>
+      <p id="title-description">We are a team from microverse, here is our first Trial Project.</p>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <h2 class="project-title">Microverse Project</h2>
+          <p id="project-discription">
+            This is ......
+          </p>
+
+          <a href=""></a>
+      </div>
+    </section>
+    <section id="about">
+      <div>© 2021 TUFOIN NKUO . RAHUL TADOLA</div>
+      <div>Microvesre First test trial project.</div>
+      <a id="profile-link" href="www.github.com/...." target="_blank">Our Project Work</a>
+      
+
+    </section>
+    
+    
+    
+  </body>
+  
+  
+  
+  
+  
+</html>
